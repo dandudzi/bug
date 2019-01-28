@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bug</groupId>
+    <artifactId>bug</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>report-bug</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.version>3.8.0</maven.version>
+        <start.class>com.bug.main.Main</start.class>
+        <javafx.version>11</javafx.version>
+        <spring.boot.version>2.1.2.RELEASE</spring.boot.version>
+        <maven.test.version>3.0.0-M3</maven.test.version>
+        <junit.version>5.3.2</junit.version>
+        <skip.unit.tests>true</skip.unit.tests>
+        <skip.integration.tests>true</skip.integration.tests>
+        <lombok.version>1.18.2</lombok.version>
+    </properties>
+
+
+</project>
